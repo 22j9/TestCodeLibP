@@ -1,7 +1,7 @@
-public class Solution {
+public class CountPinObjects {
     private final Relation relation;
 
-    public Solution(List<List<Pixel>> pixels) {
+    public CountPinObjects(List<List<Pixel>> pixels) {
         this.relation = new Relation(pixels);
     }
 
